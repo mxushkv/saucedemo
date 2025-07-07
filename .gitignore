@@ -1,0 +1,22 @@
+# Node
+node_modules/
+*.log
+
+# Playwright outputs
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Auth/session
+storage/auth.json  
+
+# macOS
+**/.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# System/tools
+tree.txt
