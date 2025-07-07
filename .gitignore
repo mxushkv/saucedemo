@@ -10,6 +10,7 @@ playwright/.cache/
 
 # Auth/session
 storage/auth.json  
+.env
 
 # macOS
 **/.DS_Store

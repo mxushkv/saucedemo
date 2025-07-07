@@ -19,13 +19,24 @@ End-to-end test automation project using **Playwright + TypeScript**
 
 ## How to launch
 
+### 1. Install dependencies:
 ```bash
 npm install
-npx playwright test --global-setup=global-setup
-npx playwright show-report
 ```
 
----
+### 2.
+```bash Install Playwright browsers:
+npx playwright install
+```
 
-## ⚠️ Credentials Notice
-This project uses public test credentials for `saucedemo.com`.
+### 3. Create a .env file in the project root (see .env.example):
+
+### 4. Run tests:
+```bash
+npx playwright test
+```
+
+### 5.  Open HTML report:
+```bash
+npx playwright show-report
+```
